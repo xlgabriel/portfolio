@@ -166,46 +166,46 @@ const experiences = [
 const testimonials = [
   {
     testimonial:
-      "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-    name: "Sara Lee",
-    designation: "CFO",
-    company: "Acme Co",
-    image: "https://randomuser.me/api/portraits/women/4.jpg",
+      "A man with many ideas and the ability to carry them out. He helped us a lot, just what the company needed.",
+    name: "Cristian Ávalo",
+    designation: "General director",
+    company: "Rent a car 4 less, located in Miami, Orlando, Fortlauderdale and Houston.",
+    image: "https://media.licdn.com/dms/image/D4E03AQFHBZaSlHf8Pw/profile-displayphoto-shrink_800_800/0/1685462514987?e=2147483647&v=beta&t=643sjGcJXm__dOYU7c2ypELpeaia0fINb0iR9j3U9VI",
   },
   {
     testimonial:
       "I've never met a web developer who truly cares about their clients' success like Rick does.",
-    name: "Chris Brown",
-    designation: "COO",
-    company: "DEF Corp",
-    image: "https://randomuser.me/api/portraits/men/5.jpg",
+    name: "Andrés Gallego",
+    designation: "Multimedia engineering career director",
+    company: "Universidad Autónoma de Occidente",
+    image: "https://www.uao.edu.co/wp-content/uploads/2020/04/Andrés-Gallego-Small.jpg",
   },
   {
     testimonial:
       "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-    name: "Lisa Wang",
+    name: "Carlos Osorio",
     designation: "CTO",
     company: "456 Enterprises",
-    image: "https://randomuser.me/api/portraits/women/6.jpg",
+    image: "https://media.licdn.com/dms/image/C4E03AQHvmOoZuCE30g/profile-displayphoto-shrink_800_800/0/1537657777340?e=2147483647&v=beta&t=qys6-TrHYGGB0Qg0xl8PBcI4QaCVdrwKGL4e3lNZ3aU",
   },
 ];
 
 const projects = [
   {
-    name: "Car Rent",
+    name: "Go Pance",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "UX/UI + Front-end Developer in a web application similar to Rappi or Uber Eats, focused on Pance town in Cali, Colombia. The purpose is to connect the different business and services located here with people around the city, in order to impulse its economy and development.",
     tags: [
       {
         name: "react",
         color: "blue-text-gradient",
       },
       {
-        name: "mongodb",
+        name: "bootstrap",
         color: "green-text-gradient",
       },
       {
-        name: "tailwind",
+        name: "javascript",
         color: "pink-text-gradient",
       },
     ],
@@ -213,20 +213,20 @@ const projects = [
     source_code_link: "https://github.com/",
   },
   {
-    name: "Job IT",
+    name: "No Tomorrows",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      "Main developer of a Survival Horror/Shooter videogame in UE4, based on the book 'All Tomorrows'. We dive into a planet with a post-apocalyptic environment, Stirner must escape to the surface and complete his mission, but he must avoid and face some terrifying enemies.",
     tags: [
       {
-        name: "react",
+        name: "unreal engine 4",
         color: "blue-text-gradient",
       },
       {
-        name: "restapi",
+        name: "blueprints",
         color: "green-text-gradient",
       },
       {
-        name: "scss",
+        name: "game dev",
         color: "pink-text-gradient",
       },
     ],
@@ -234,21 +234,25 @@ const projects = [
     source_code_link: "https://github.com/",
   },
   {
-    name: "Trip Guide",
+    name: "AcademIA",
     description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      "Working as Scrum Master in a LMS-type open-source collaborative project where the user (teacher, student) can access their academic courses, upload and review multimedia content for educational purposes. It also has Hangouts-style chat, with a plus of AI-type virtual assistant.",
     tags: [
       {
-        name: "nextjs",
+        name: "scrum",
         color: "blue-text-gradient",
       },
       {
-        name: "supabase",
+        name: "jira",
         color: "green-text-gradient",
       },
       {
-        name: "css",
+        name: "miro",
         color: "pink-text-gradient",
+      },
+      {
+        name: "taiga",
+        color: "blue-text-gradient",
       },
     ],
     image: tripguide,
