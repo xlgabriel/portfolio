@@ -166,7 +166,7 @@ const experiences = [
 const testimonials = [
   {
     testimonial:
-      "A man with many ideas and the ability to carry them out. He helped us a lot, just what the company needed.",
+      "A man with many ideas and the ability to carry them out. He helped us a lot everytime he saw the chance, proposing new ways of doing things under his experience and abilities. I definitely recommend him as a person and professional for any job.",
     name: "Cristian Ávalo",
     designation: "General director",
     company: "Rent a car 4 less, located in Miami, Orlando, Fortlauderdale and Houston.",
@@ -174,7 +174,7 @@ const testimonials = [
   },
   {
     testimonial:
-      "I've never met a web developer who truly cares about their clients' success like Rick does.",
+      "A great student and undoubtedly a great professional in his field. He always demonstrated in class and with his grades an ability to excel in the areas that he is passionate about and master the ones he needs to master.",
     name: "Andrés Gallego",
     designation: "Multimedia engineering career director",
     company: "Universidad Autónoma de Occidente",
@@ -182,10 +182,10 @@ const testimonials = [
   },
   {
     testimonial:
-      "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
+      "Working with Gabriel helped me to discover a person with a lot of discipline and persistence in each task he takes on. I am still surprised by the way he approaches each problem and his multiple abilities to solve them.",
     name: "Carlos Osorio",
-    designation: "CTO",
-    company: "456 Enterprises",
+    designation: "NodeJS Developer at Globant, student",
+    company: "Universidad Autónoma de Occidente",
     image: "https://media.licdn.com/dms/image/C4E03AQHvmOoZuCE30g/profile-displayphoto-shrink_800_800/0/1537657777340?e=2147483647&v=beta&t=qys6-TrHYGGB0Qg0xl8PBcI4QaCVdrwKGL4e3lNZ3aU",
   },
 ];
