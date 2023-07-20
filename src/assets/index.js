@@ -21,14 +21,23 @@ import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
 
-import meta from "./company/meta.png";
-import shopify from "./company/shopify.png";
-import starbucks from "./company/starbucks.png";
-import tesla from "./company/tesla.png";
+import c from "./tech/c.png";
+import aframe from "./tech/aframe.png";
+import colab from "./tech/colab.png";
+import maya from "./tech/maya.png";
+import python from "./tech/python.png";
+import unity from "./tech/unity.png";
+import vuforia from "./tech/vuforia.png";
+import vagrant from "./tech/vagrant.png";
+import githubblack from "./tech/githubblack.png";
 
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
+import academia from "./academia.png";
+import gopance from "./gopance.png";
+import notomorrows from "./notomorrows.png";
+
 
 export {
   logo,
@@ -52,12 +61,20 @@ export {
   tailwind,
   typescript,
   threejs,
-  meta,
-  shopify,
-  starbucks,
-  tesla,
   carrent,
   jobit,
   tripguide,
   video,
+  c,
+  aframe,
+  colab,
+  maya,
+  python,
+  unity,
+  vagrant,
+  vuforia,
+  githubblack,
+  academia,
+  gopance,
+  notomorrows,
 };
