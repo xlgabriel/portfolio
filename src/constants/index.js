@@ -15,14 +15,12 @@ import {
   git,
   figma,
   docker,
-  meta,
-  starbucks,
-  tesla,
-  shopify,
   carrent,
   jobit,
   tripguide,
   threejs,
+  github,
+  video,
 } from "../assets";
 
 export const navLinks = [
@@ -118,8 +116,9 @@ const experiences = [
   {
     title: "Multimedia Systems Development",
     company_name: "I can create complex multimedia ecosystems",
-    icon: starbucks,
+    icon: video,
     iconBg: "#383E56",
+    iconLink: "https://youtube.com/watch?v=uG0P2nIrGOM&t",
     date: "Example: No Tomorrows",
     points: [
       "Game Dev: Unity, Unreal Engine, Godot, C, C#, C++, Java, OOP. AI systems (Tesseract OCR, ONNX, Unity Barracuda, UE4 Trees).",
@@ -130,8 +129,9 @@ const experiences = [
   {
     title: "Multimedia Systems Management",
     company_name: "I have experience working with agile teams",
-    icon: tesla,
-    iconBg: "#E6DEDD",
+    icon: github,
+    iconBg: "#383076",
+    iconLink: "https://github.com/xlgabriel/AcademIA",
     date: "Example: AcademIA",
     points: [
       "Concept design, Scrum management, project development, Git, GitHub, Jira, Miro, Taiga, Slack, Microsoft Teams. Engineering knowledge and soft skills.",
@@ -141,8 +141,9 @@ const experiences = [
   {
     title: "IoT and Cloud Computing",
     company_name: "I'm constantly learning in this area",
-    icon: shopify,
+    icon: github,
     iconBg: "#383E56",
+    iconLink: "https://github.com/diegoperea20/Clasification-Reviews",
     date: "Example: IMDB emotions clasificator",
     points: [
       "Virtualization, Provisioning, Containers, Arduino, OSI Model, Packet Tracer, Linux, VirtualBox, Vagrant, Docker, Kubernetes, Puppet, Postman, HTTP, Apache, Nginx, Centos 7, Ubuntu.",
@@ -151,9 +152,10 @@ const experiences = [
   },
   {
     title: "Artificial Intelligence Development",
-    company_name: "Meta",
-    icon: meta,
-    iconBg: "#E6DEDD",
+    company_name: "I love to apply this emergent technology",
+    icon: video,
+    iconBg: "#383076",
+    iconLink: "https://www.youtube.com/watch?v=oTOu82YL1io",
     date: "Example: Minecraft voice recognition",
     points: [
       "Python, AWS, Colab, Jupyter, HuggingFace, Kaggle, Azure.",
@@ -210,7 +212,7 @@ const projects = [
       },
     ],
     image: carrent,
-    source_code_link: "https://github.com/",
+    source_code_link: "https://github.com/Johannes910/gopance",
   },
   {
     name: "No Tomorrows",
@@ -231,7 +233,7 @@ const projects = [
       },
     ],
     image: jobit,
-    source_code_link: "https://github.com/",
+    source_code_link: "https://github.com/xlgabriel/NoTomorrows",
   },
   {
     name: "AcademIA",
@@ -256,7 +258,7 @@ const projects = [
       },
     ],
     image: tripguide,
-    source_code_link: "https://github.com/",
+    source_code_link: "https://github.com/xlgabriel/AcademIA",
   },
 ];
 
