@@ -29,3 +29,32 @@ By completing this project, I will have gained valuable skills in 3D web develop
 <h2>IDE Used </h2>
 
 - <b>Visual Studio Code</b>
+
+<h2>Page walk-through:</h2>
+
+<p align="center">
+User first view: <br/>
+<a href="https://imgur.com/iCRYyqd"><img src="https://i.imgur.com/iCRYyqd.jpg" title="source: imgur.com" /></a>
+<br />
+<br />
+Overview of me:  <br/>
+<a href="https://imgur.com/4nvu4Xd"><img src="https://i.imgur.com/4nvu4Xd.png" title="source: imgur.com" /></a>
+<br />
+<br />
+My knowledge:  <br/>
+<a href="https://imgur.com/YmOgacB"><img src="https://i.imgur.com/YmOgacB.png" title="source: imgur.com" /></a>
+ <br />
+<br />
+Languajes and tools represented by 3D balls, and some of my projects:  <br/>
+<a href="https://imgur.com/V0mYN9D"><img src="https://i.imgur.com/V0mYN9D.png" title="source: imgur.com" /></a>
+ <br />
+<br />
+Testimonials about me:  <br/>
+<a href="https://imgur.com/Q5DRiMn"><img src="https://i.imgur.com/Q5DRiMn.png" title="source: imgur.com" /></a>
+ <br />
+<br />
+Contact me:  <br/>
+<a href="https://imgur.com/LRnx36m"><img src="https://i.imgur.com/LRnx36m.png" title="source: imgur.com" /></a>
+ <br />
+<br />
+<h3>I'm planning on adding new features in the future.</h2>
