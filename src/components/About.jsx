@@ -47,7 +47,7 @@ const About = () => {
         variants={fadeIn("", "", 0.1, 1)}
         className='mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]'
       >
-        Multimedia engineering professional and A.I. specialization student at Universidad Autónoma de Occidente with a Scholarship for Excellence. IELTS B2 English level and experience in game development, AI development and application, web development, content editing, pre-production and production of multimedia systems, Scrum methodology and social networks management.
+        As a dynamic professional with an advanced level of English, I bring a diverse skill set encompassing Full Stack Development, Video Game Development, and expertise in Deep Learning and Machine Learning. My experience extends to content editing, pre-production, production of multimedia systems, and social network management. Driven to make a significant impact in the fourth industrial revolution, I am committed to creating human-centric products that challenge technological obscurantism and resist the trend of using technology to degenerate society.
       </motion.p>
 
       <div className='mt-20 flex flex-wrap gap-10'>
