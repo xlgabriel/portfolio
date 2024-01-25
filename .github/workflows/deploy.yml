@@ -9,6 +9,8 @@ jobs:
   build:
     name: Build
     runs-on: ubuntu-latest
+    environment: 
+      name: gh-pages
 
     steps:
       - name: Checkout repo
@@ -25,9 +27,9 @@ jobs:
       - name: Build project
         run: npm run build
         env:
-          VITE_APP_EMAILJS_SERVICE_ID: ${{ vars.VITE_APP_EMAILJS_SERVICE_ID }}
-          VITE_APP_EMAILJS_TEMPLATE_ID: ${{ vars.VITE_APP_EMAILJS_TEMPLATE_ID }}
-          VITE_APP_EMAILJS_PUBLIC_KEY: ${{ vars.VITE_APP_EMAILJS_PUBLIC_KEY }}
+          VITE_APP_EMAILJS_SERVICE_ID: ${{ secrets.VITE_APP_EMAILJS_SERVICE_ID }}
+          VITE_APP_EMAILJS_TEMPLATE_ID: ${{ secrets.VITE_APP_EMAILJS_TEMPLATE_ID }}
+          VITE_APP_EMAILJS_PUBLIC_KEY: ${{ secrets.VITE_APP_EMAILJS_PUBLIC_KEY }}
 
       - name: Upload production-ready build files
         uses: actions/upload-artifact@v2
