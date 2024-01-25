@@ -23,7 +23,11 @@ const ExperienceCard = ({ experience }) => {
       date={experience.date}
       iconStyle={{ background: experience.iconBg }}
       icon={
-        <div className='flex justify-center items-center w-full h-full'>
+        <motion.div
+          className='flex justify-center items-center w-full h-full'
+          whileHover={{ scale: 1.1 }}
+          whileTap={{ scale: 0.9 }}
+        >
           <a href={experience.iconLink} target="_blank">
             <img
               src={experience.icon}
@@ -31,7 +35,7 @@ const ExperienceCard = ({ experience }) => {
               className='w-[100%] h-[60%] object-contain'
             />
           </a>
-        </div>
+        </motion.div>
       }
     >
       <div>
