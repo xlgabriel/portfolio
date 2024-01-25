@@ -31,13 +31,6 @@ jobs:
           VITE_APP_EMAILJS_TEMPLATE_ID: ${{ secrets.VITE_APP_EMAILJS_TEMPLATE_ID }}
           VITE_APP_EMAILJS_PUBLIC_KEY: ${{ secrets.VITE_APP_EMAILJS_PUBLIC_KEY }}
 
-      - name: Print environment variable names
-        run: |
-          echo "VITE_APP_EMAILJS_SERVICE_ID is set to a non-empty value: ${{ env.VITE_APP_EMAILJS_SERVICE_ID != '' }}"
-          echo "VITE_APP_EMAILJS_TEMPLATE_ID is set to a non-empty value: ${{ env.VITE_APP_EMAILJS_TEMPLATE_ID != '' }}"
-          echo "VITE_APP_EMAILJS_PUBLIC_KEY is set to a non-empty value: ${{ env.VITE_APP_EMAILJS_PUBLIC_KEY != '' }}"
-
-
       - name: Upload production-ready build files
         uses: actions/upload-artifact@v2
         with:
