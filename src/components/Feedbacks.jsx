@@ -13,6 +13,7 @@ const FeedbackCard = ({
   designation,
   company,
   image,
+  linkedin
 }) => (
   <motion.div
     variants={fadeIn("", "spring", index * 0.5, 0.75)}
@@ -33,11 +34,19 @@ const FeedbackCard = ({
           </p>
         </div>
 
-        <img
-          src={image}
-          alt={`feedback_by-${name}`}
-          className='w-10 h-10 rounded-full object-cover'
-        />
+        <motion.a
+          href={linkedin}
+          target="_blank"
+          rel="noopener noreferrer"
+          whileHover={{ scale: 1.1 }}
+          whileTap={{ scale: 1.1 }}
+        >
+          <img
+            src={image}
+            alt={`feedback_by-${name}`}
+            className='w-10 h-10 rounded-full object-cover'
+          />
+        </motion.a>
       </div>
     </div>
   </motion.div>

@@ -1,5 +1,4 @@
 import { motion } from "framer-motion";
-
 import { styles } from "../styles";
 import { ComputersCanvas } from "./canvas";
 
@@ -14,19 +13,36 @@ const Hero = () => {
           <div className='w-1 sm:h-80 h-40 violet-gradient' />
         </div>
 
-        <div>
+        <div style={{ zIndex: 1 }}>
           <h1 className={`${styles.heroHeadText} text-white`}>
-            Hi, I'm <span className='text-[#915EFF]'>Gabriel Jeannot</span>
+            Hi, I'm <motion.span
+              initial={{ opacity: 0, y: -20 }}
+              animate={{ opacity: 1, y: 0 }}
+              transition={{ duration: 0.5 }}
+              className='text-[#915EFF]'
+            >
+              Gabriel Jeannot
+            </motion.span>
           </h1>
           <p className={`${styles.heroSubText} mt-2 text-white-100`}>
             Multimedia Engineer | A.I. Specialist<br className='sm:block hidden' />
             English level B2 | I can learn and apply anything! <br className='sm:block hidden' />
           </p>
+          <div className="flex sm:flex-row mt-7">
+            <a href="https://github.com/xlgabriel" target="_blank" rel="noopener noreferrer" className="mb-4 sm:mb-0 sm:mr-4 green-pink-gradient p-[2px] rounded-[10px] shadow-card">
+              <button className="bg-[#151131] text-white px-4 py-2 rounded-lg transition duration-300 ease-in-out transform hover:scale-95">GitHub</button>
+            </a>
+            <a href="https://www.linkedin.com/in/xlgabriel" target="_blank" rel="noopener noreferrer" className="mb-4 sm:mb-0 sm:mr-4 green-pink-gradient p-[2px] rounded-[10px] shadow-card">
+              <button className="bg-[#151131] text-white px-4 py-2 rounded-lg transition duration-300 ease-in-out transform hover:scale-95">LinkedIn</button>
+            </a>
+            <a href="mailto:gabriel.jeannot@uao.edu.co" target="_blank" rel="noopener noreferrer" className="mb-4 sm:mb-0 sm:mr-4 green-pink-gradient p-[2px] rounded-[10px] shadow-card">
+              <button className="bg-[#151131] text-white px-4 py-2 rounded-lg transition duration-300 ease-in-out transform hover:scale-95">Email me</button>
+            </a>
+          </div>
         </div>
       </div>
-      <br /><br /><br /><br />
+      <br /><br /><br />
       <ComputersCanvas />
-
       <div className='absolute xs:bottom-10 bottom-32 w-full flex justify-center items-center'>
         <a href='#about'>
           <div className='w-[35px] h-[64px] rounded-3xl border-4 border-secondary flex justify-center items-start p-2'>

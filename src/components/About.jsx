@@ -47,7 +47,7 @@ const About = () => {
         variants={fadeIn("", "", 0.1, 1)}
         className='mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]'
       >
-        As a dynamic professional with an advanced level of English, I bring a diverse skill set encompassing Full Stack Development, Video Game Development, and expertise in Deep Learning and Machine Learning. My experience extends to content editing, pre-production, production of multimedia systems, and social network management. Driven to make a significant impact in the fourth industrial revolution, I am committed to creating human-centric products that challenge technological obscurantism and resist the trend of using technology to degenerate society.
+        As a dynamic professional with an advanced level of English, I bring a diverse skill set encompassing Full Stack Development, Video Game Development, and expertise in Deep Learning and Machine Learning. My experience extends to content editing, pre-production, production of multimedia systems, and social network management. Driven to make a significant impact in the fourth industrial revolution.
       </motion.p>
 
       <div className='mt-20 flex flex-wrap gap-10'>

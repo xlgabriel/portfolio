@@ -31,9 +31,6 @@ import vuforia from "./tech/vuforia.png";
 import vagrant from "./tech/vagrant.png";
 import githubblack from "./tech/githubblack.png";
 
-import carrent from "./carrent.png";
-import jobit from "./jobit.png";
-import tripguide from "./tripguide.png";
 import academia from "./academia.png";
 import gopance from "./gopance.png";
 import notomorrows from "./notomorrows.png";
@@ -61,9 +58,6 @@ export {
   tailwind,
   typescript,
   threejs,
-  carrent,
-  jobit,
-  tripguide,
   video,
   c,
   aframe,

@@ -6,9 +6,6 @@ import {
   javascript,
   html,
   reactjs,
-  carrent,
-  jobit,
-  tripguide,
   threejs,
   github,
   video,
@@ -25,6 +22,9 @@ import {
   gopance,
   notomorrows,
 } from "../assets";
+
+import cristianAvalo from "../assets/cristianavalo.jpg";
+import carlosOsorio from "../assets/carlososorio.jpg";
 
 export const navLinks = [
   {
@@ -47,7 +47,7 @@ const services = [
     icon: web,
   },
   {
-    title: "Web Developer",
+    title: "FullStack Developer",
     icon: mobile,
   },
   {
@@ -125,20 +125,20 @@ const experiences = [
     date: "Example: No Tomorrows",
     points: [
       "Game Dev: Unity, Unreal Engine, Godot, C, C#, C++, Java, OOP. AI systems (Tesseract OCR, ONNX, Unity Barracuda, UE4 Trees).",
-      "Web Dev: JavaScript, TypeScript, CSS, HTML, React, Node.js, Vite, Three.js, Wordpress, Figma, VS Code, APIs, Web Design.",
+      "Web Dev: JavaScript, CSS, HTML, React, Node.js, Vite, Three.js, Wordpress, Figma, VS Code, APIs, Web Design.",
       "Content Production: Maya, Blender, Adobe, Canva, Pro Tools.",
     ],
   },
   {
-    title: "Multimedia Systems Management",
-    company_name: "I have experience working with agile teams",
+    title: "FullStack Development",
+    company_name: "Front-end, back-end and everything around",
     icon: github,
     iconBg: "#383076",
-    iconLink: "https://github.com/xlgabriel/AcademIA",
-    date: "Example: AcademIA",
+    iconLink: "https://github.com/xlgabriel/videface_v3",
+    date: "Example: VideFace",
     points: [
-      "Concept design, Scrum management, project development, Git, GitHub, Jira, Miro, Taiga, Slack, Microsoft Teams. Engineering knowledge and soft skills.",
-      "Collaborating with cross-functional teams including designers, product owners, and other developers to create high-quality products.",
+      "HTML, CSS, JavaScript, React, Node.js, Firebase, Git, APIs, Web Design, Bootstrap, MUI, Express, Socket, HTTP, WebRTC, MySQL and more.",
+      "I have real web applications used by real users and companies. I always try to learn with practice and real projects, so I can improve my skills and knowledge.",
     ],
   },
   {
@@ -149,8 +149,8 @@ const experiences = [
     iconLink: "https://github.com/diegoperea20/Clasification-Reviews",
     date: "Example: IMDB emotions clasificator",
     points: [
-      "Virtualization, Provisioning, Containers, Arduino, OSI Model, Packet Tracer, Linux, VirtualBox, Vagrant, Docker, Kubernetes, Puppet, Postman, HTTP, Apache, Nginx, Centos 7, Ubuntu.",
-      "I have experience working with Microsoft Azure services like Speech Studio, Azure ML, virtualization and some others.",
+      "Virtualization, Containers, Arduino, OSI Model, Packet Tracer, Linux, VirtualBox, Vagrant, Docker, Kubernetes, Puppet, Postman, HTTP, Apache, Nginx, Centos 7, Ubidots, MQTT, NODE-Red.",
+      "I've worked with Google Cloud (Cloud Run and App Engine), Microsoft Azure (Speech Studio, Azure ML, virtualization and some others).",
     ],
   },
   {
@@ -161,8 +161,8 @@ const experiences = [
     iconLink: "https://www.youtube.com/watch?v=oTOu82YL1io",
     date: "Example: Minecraft voice recognition",
     points: [
-      "Python, AWS, Colab, Jupyter, HuggingFace, Kaggle, Azure.",
-      "Deep Learning, Machine Learning, Tiny ML, Computer Vision, audio and image processing, Prompt Engineering, AI Tools (GPT, Stable Diffusion, Whisper, GANs, etc).",
+      "Python, AWS, Colab, Jupyter, HuggingFace, Kaggle, Azure, Edge Impulse",
+      "Deep Learning, Machine Learning, Tiny ML, Computer Vision, audio and image processing, Prompt Engineering, AI Tools (GPTs, Stable Diffusion, Whisper, GANs, etc).",
       "Capable of deploying and working with AI-based products and projects, both as a developer and coordinator.",
     ],
   },
@@ -171,11 +171,12 @@ const experiences = [
 const testimonials = [
   {
     testimonial:
-      "A man with many ideas and the ability to carry them out. He helped us a lot everytime he saw the chance, proposing new ways of doing things under his experience and abilities. I definitely recommend him as a person and professional for any job.",
+      "A man with many ideas and the ability to carry them out. We are happy with the software he developed for us. He's always proposing new ways of doing things under his experience and abilities. I definitely recommend him as a person and engineer.",
     name: "Cristian Ávalo",
     designation: "General director",
     company: "Rent a car 4 less, located in Miami, Orlando, Fortlauderdale and Houston.",
-    image: "https://media.licdn.com/dms/image/D4E03AQFHBZaSlHf8Pw/profile-displayphoto-shrink_800_800/0/1685462514987?e=2147483647&v=beta&t=643sjGcJXm__dOYU7c2ypELpeaia0fINb0iR9j3U9VI",
+    image: cristianAvalo,
+    linkedin: "https://www.linkedin.com/in/cristian-avalo-4less",
   },
   {
     testimonial:
@@ -184,6 +185,7 @@ const testimonials = [
     designation: "Multimedia engineering career director",
     company: "Universidad Autónoma de Occidente",
     image: "https://www.uao.edu.co/wp-content/uploads/2020/04/Andrés-Gallego-Small.jpg",
+    linkedin: "https://www.linkedin.com/in/andresfox",
   },
   {
     testimonial:
@@ -191,7 +193,8 @@ const testimonials = [
     name: "Carlos Osorio",
     designation: "NodeJS Developer at Globant, student",
     company: "Universidad Autónoma de Occidente",
-    image: "https://media.licdn.com/dms/image/C4E03AQHvmOoZuCE30g/profile-displayphoto-shrink_800_800/0/1537657777340?e=2147483647&v=beta&t=qys6-TrHYGGB0Qg0xl8PBcI4QaCVdrwKGL4e3lNZ3aU",
+    image: carlosOsorio,
+    linkedin: "https://www.linkedin.com/in/carlos-ivan-osorio",
   },
 ];
 
