@@ -203,7 +203,7 @@ const projects = [
     upper_title: "+80 active users per day",
     name: "VideFace",
     description:
-      "Full stack project used by real companies. Web App using FERN distribution (Firebase, React, Express, Node). communication between company, represented by agents, and users (B2C) through video calls, with different solutions adapted to improve the experience of both the agent and the client.",
+      "Full stack, SaaS-based video communication platform designed to enhance remote sales and customer service. Utilizing the FERN stack (Firebase, React, Express, Node), this project supports B2C interactions through video calls, offering custom-built solutions tailored to improve the experience for the users.",
     tags: [
       {
         name: "react",

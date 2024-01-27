@@ -105,7 +105,7 @@ const ProjectCard = ({
           </a>
           <div>
             <a
-              className="text-white text-[13px] transition-colors duration-300 hover:text-purple-500"
+              className="text-white text-[13px] italic transition-colors duration-300 hover:text-gray-400"
             >
               {upper_title}
             </a>
