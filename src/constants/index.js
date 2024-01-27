@@ -19,7 +19,7 @@ import {
   vuforia,
   githubblack,
   academia,
-  gopance,
+  projects_videface,
   notomorrows,
 } from "../assets";
 
@@ -29,7 +29,7 @@ import carlosOsorio from "../assets/carlososorio.jpg";
 export const navLinks = [
   {
     id: "about",
-    title: "About",
+    title: "Overview",
   },
   {
     id: "work",
@@ -134,7 +134,7 @@ const experiences = [
     company_name: "Front-end, back-end and everything around",
     icon: github,
     iconBg: "#383076",
-    iconLink: "https://github.com/xlgabriel/videface_v3",
+    iconLink: "https://videface.netlify.app/about",
     date: "Example: VideFace",
     points: [
       "HTML, CSS, JavaScript, React, Node.js, Firebase, Git, APIs, Web Design, Bootstrap, MUI, Express, Socket, HTTP, WebRTC, MySQL and more.",
@@ -200,30 +200,48 @@ const testimonials = [
 
 const projects = [
   {
-    name: "Go Pance",
+    upper_title: "+80 active users per day",
+    name: "VideFace",
     description:
-      "UX/UI + Front-end Developer in a web application similar to Rappi or Uber Eats, focused on Pance town in Cali, Colombia. The purpose is to connect the different business and services located here with people around the city, in order to impulse its economy and development.",
+      "Full stack project used by real companies. Web App using FERN distribution (Firebase, React, Express, Node). communication between company, represented by agents, and users (B2C) through video calls, with different solutions adapted to improve the experience of both the agent and the client.",
     tags: [
       {
         name: "react",
         color: "blue-text-gradient",
       },
       {
-        name: "bootstrap",
-        color: "green-text-gradient",
+        name: "firebase",
+        color: "pink-text-gradient",
       },
       {
         name: "javascript",
-        color: "pink-text-gradient",
+        color: "text-yellow-500",
+      },
+      {
+        name: "socket.io",
+        color: "text-gray-300",
+      },
+      {
+        name: "simple-peer",
+        color: "text-green-300",
+      },
+      {
+        name: "cloud run",
+        color: "orange-text-gradient",
+      },
+      {
+        name: "node.js",
+        color: "text-green-500",
       },
     ],
-    image: gopance,
-    source_code_link: "https://github.com/Johannes910/gopance",
+    image: projects_videface,
+    source_code_link: "https://videface.netlify.app/about",
   },
   {
+    upper_title: "Some people on the web like it",
     name: "No Tomorrows",
     description:
-      "Main developer of a Survival Horror/Shooter videogame in UE4, based on the book 'All Tomorrows'. We dive into a planet with a post-apocalyptic environment, Stirner must escape to the surface and complete his mission, but he must avoid and face some terrifying enemies.",
+      "Developer of a Survival Horror/Shooter videogame in UE4, based on the book 'All Tomorrows'. We dive into a planet with a post-apocalyptic environment, Stirner must escape to the surface and complete his mission, but he must avoid and face some terrifying enemies.",
     tags: [
       {
         name: "unreal engine 4",
@@ -237,11 +255,24 @@ const projects = [
         name: "game dev",
         color: "pink-text-gradient",
       },
+      {
+        name: "game design",
+        color: "text-yellow-500",
+      },
+      {
+        name: "3d",
+        color: "text-orange-500",
+      },
+      {
+        name: "storytelling",
+        color: "text-gray-300",
+      },
     ],
     image: notomorrows,
-    source_code_link: "https://github.com/xlgabriel/NoTomorrows",
+    source_code_link: "https://www.youtube.com/watch?v=uG0P2nIrGOM&t",
   },
   {
+    upper_title: "A project with a lot of potential",
     name: "AcademIA",
     description:
       "Working as Scrum Master in a LMS-type open-source collaborative project where the user (teacher, student) can access their academic courses, upload and review multimedia content for educational purposes. It also has Hangouts-style chat, with a plus of AI-type virtual assistant.",
@@ -261,6 +292,22 @@ const projects = [
       {
         name: "taiga",
         color: "blue-text-gradient",
+      },
+      {
+        name: "kpis",
+        color: "text-yellow-400",
+      },
+      {
+        name: "slack",
+        color: "text-gray-300",
+      },
+      {
+        name: "planning poker",
+        color: "text-green-400",
+      },
+      {
+        name: "scrum master",
+        color: "text-orange-500",
       },
     ],
     image: academia,

@@ -30,9 +30,10 @@ import unity from "./tech/unity.png";
 import vuforia from "./tech/vuforia.png";
 import vagrant from "./tech/vagrant.png";
 import githubblack from "./tech/githubblack.png";
+import linkto from "./linkto.png";
 
 import academia from "./academia.png";
-import gopance from "./gopance.png";
+import projects_videface from "./projects_videface.webp";
 import notomorrows from "./notomorrows.png";
 
 
@@ -69,6 +70,7 @@ export {
   vuforia,
   githubblack,
   academia,
-  gopance,
+  projects_videface,
   notomorrows,
+  linkto,
 };
