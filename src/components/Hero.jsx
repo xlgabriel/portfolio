@@ -38,12 +38,12 @@ const Hero = () => {
             <a href="mailto:gabriel.jeannot@uao.edu.co" target="_blank" rel="noopener noreferrer" className="mb-4 sm:mb-0 sm:mr-4 green-pink-gradient p-[2px] rounded-[10px] shadow-card">
               <button className="bg-[#151131] text-white px-4 py-2 rounded-lg transition duration-300 ease-in-out transform hover:scale-95">Email me</button>
             </a>
-            <a href="link_cv_espanol.pdf" target="_blank" rel="noopener noreferrer" className="mb-4 sm:mb-0 sm:mr-4 green-pink-gradient p-[2px] rounded-[10px] shadow-card">
+            <a href="https://drive.google.com/file/d/1aX3FKhO3Osyoi3YT6tSyZ6OIcJGUD7EK/view?usp=sharing" target="_blank" rel="noopener noreferrer" className="mb-4 sm:mb-0 sm:mr-4 green-pink-gradient p-[2px] rounded-[10px] shadow-card">
               <button className="bg-[#151131] text-white px-4 py-2 rounded-lg transition duration-300 ease-in-out transform hover:scale-95">
                 <strong>CV (ES)</strong>
               </button>
             </a>
-            <a href="link_cv_ingles.pdf" target="_blank" rel="noopener noreferrer" className="mb-4 sm:mb-0 sm:mr-4 green-pink-gradient p-[2px] rounded-[10px] shadow-card">
+            <a href="https://drive.google.com/file/d/15fQ2V77XUWVoi4W2YKMlgkj896bQBrTP/view?usp=sharing" target="_blank" rel="noopener noreferrer" className="mb-4 sm:mb-0 sm:mr-4 green-pink-gradient p-[2px] rounded-[10px] shadow-card">
               <button className="bg-[#151131] text-white px-4 py-2 rounded-lg transition duration-300 ease-in-out transform hover:scale-95">
                 <strong>CV (EN)</strong>
               </button>
