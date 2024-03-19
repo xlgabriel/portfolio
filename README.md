@@ -30,7 +30,7 @@ By completing this project, I will have gained valuable skills in 3D web develop
 
 - <b>Visual Studio Code</b>
 
-<h2>Page walk-through:</h2>
+<h2>Page walk-through (this will be updated!):</h2>
 
 <p align="center">
 User first view: <br/>
