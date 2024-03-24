@@ -1,6 +1,6 @@
 <h1>3D Web Portfolio</h1>
 
- ### [Original idea 💡](https://www.youtube.com/watch?v=0fYi8SGA20k&list=WL&index=2&t)
+ ### [Original idea here! 💡](https://www.youtube.com/watch?v=0fYi8SGA20k&list=WL&index=2&t)
 
 <h2>Description</h2>
 I'm building an 3D Developer Portfolio using ThreeJS, React Three Fiber, TailwindCSS, and Framer Motion.
