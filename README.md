@@ -57,4 +57,4 @@ Contact me:  <br/>
 <a href="https://imgur.com/LRnx36m"><img src="https://i.imgur.com/LRnx36m.png" title="source: imgur.com" /></a>
  <br />
 <br />
-<h3>I'm planning on adding new features in the future.</h2>
+<h3>I'm planning on adding new features in the future, as well as other changes to improve the portfolio.</h2>
