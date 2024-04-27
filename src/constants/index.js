@@ -134,7 +134,7 @@ const experiences = [
     company_name: "Front-end, back-end and everything around",
     icon: github,
     iconBg: "#383076",
-    iconLink: "https://videface.netlify.app/about",
+    iconLink: "https://videface.app",
     date: "Example: VideFace",
     points: [
       "HTML, CSS, JavaScript, React, Node.js, Firebase, Git, APIs, Web Design, Bootstrap, MUI, Express, Socket, HTTP, WebRTC, MySQL and more.",
@@ -200,7 +200,7 @@ const testimonials = [
 
 const projects = [
   {
-    upper_title: "+80 active users per day",
+    upper_title: "Real company in the market",
     name: "VideFace",
     description:
       "Full stack, SaaS-based video communication platform designed to enhance remote sales and customer service. Utilizing the FERN stack (Firebase, React, Express, Node), this project supports B2C interactions through video calls, offering custom-built solutions tailored to improve the experience for the users.",
@@ -235,7 +235,7 @@ const projects = [
       },
     ],
     image: projects_videface,
-    source_code_link: "https://videface.netlify.app/about",
+    source_code_link: "https://videface.app",
   },
   {
     upper_title: "Some people on the web like it",
