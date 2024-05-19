@@ -26,9 +26,7 @@ const Hero = () => {
                         </motion.span>
                     </h1>
                     <p className={`${styles.heroSubText} mt-2 text-white-100`}>
-                        Multimedia Engineer | A.I. Specialist
-                        <br className="sm:block hidden" />
-                        English level B2 | I can learn and apply anything! <br className="sm:block hidden" />
+                        Multimedia Engineer | A.I. Specialist | Front-end Developer
                     </p>
                     <div className="flex sm:flex-row mt-7">
                         <a
@@ -49,26 +47,6 @@ const Hero = () => {
                         >
                             <button className="bg-[#151131] text-white px-4 py-2 rounded-lg transition duration-300 ease-in-out transform hover:scale-95">
                                 LinkedIn
-                            </button>
-                        </a>
-                        <a
-                            href="mailto:gabriel.jeannot@uao.edu.co"
-                            target="_blank"
-                            rel="noopener noreferrer"
-                            className="mb-4 sm:mb-0 sm:mr-4 green-pink-gradient p-[2px] rounded-[10px] shadow-card"
-                        >
-                            <button className="bg-[#151131] text-white px-4 py-2 rounded-lg transition duration-300 ease-in-out transform hover:scale-95">
-                                Email me
-                            </button>
-                        </a>
-                        <a
-                            href="https://drive.google.com/file/d/1aX3FKhO3Osyoi3YT6tSyZ6OIcJGUD7EK/view?usp=sharing"
-                            target="_blank"
-                            rel="noopener noreferrer"
-                            className="mb-4 sm:mb-0 sm:mr-4 green-pink-gradient p-[2px] rounded-[10px] shadow-card"
-                        >
-                            <button className="bg-[#151131] text-white px-4 py-2 rounded-lg transition duration-300 ease-in-out transform hover:scale-95">
-                                <strong>CV (ES)</strong>
                             </button>
                         </a>
                         <a
