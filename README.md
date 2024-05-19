@@ -30,31 +30,53 @@ By completing this project, I will have gained valuable skills in 3D web develop
 
 - <b>Visual Studio Code</b>
 
-<h2>Page walk-through (this will be updated!):</h2>
+<br />
 
-<p align="center">
-User first view: <br/>
-<a href="https://imgur.com/iCRYyqd"><img src="https://i.imgur.com/iCRYyqd.jpg" title="source: imgur.com" /></a>
-<br />
-<br />
-Overview of me:  <br/>
-<a href="https://imgur.com/4nvu4Xd"><img src="https://i.imgur.com/4nvu4Xd.png" title="source: imgur.com" /></a>
-<br />
-<br />
-My knowledge:  <br/>
-<a href="https://imgur.com/YmOgacB"><img src="https://i.imgur.com/YmOgacB.png" title="source: imgur.com" /></a>
- <br />
-<br />
-Languajes and tools represented by 3D balls, and some of my projects:  <br/>
-<a href="https://imgur.com/V0mYN9D"><img src="https://i.imgur.com/V0mYN9D.png" title="source: imgur.com" /></a>
- <br />
-<br />
-Testimonials about me:  <br/>
-<a href="https://imgur.com/Q5DRiMn"><img src="https://i.imgur.com/Q5DRiMn.png" title="source: imgur.com" /></a>
- <br />
-<br />
-Contact me:  <br/>
-<a href="https://imgur.com/LRnx36m"><img src="https://i.imgur.com/LRnx36m.png" title="source: imgur.com" /></a>
- <br />
-<br />
+## <a name="quick-start">🤸 Quick Start</a>
+
+Follow these steps to set up the project locally on your machine.
+
+**Prerequisites**
+
+Make sure you have the following installed on your machine:
+
+- [Git](https://git-scm.com/)
+- [Node.js](https://nodejs.org/en)
+- [npm](https://www.npmjs.com/) (Node Package Manager)
+
+**Cloning the Repository**
+
+```bash
+git clone git@github.com:adrianhajdin/project_3D_developer_portfolio.git
+cd project_3D_developer_portfolio
+```
+
+**Installation**
+
+Install the project dependencies using npm:
+
+```bash
+npm install
+```
+
+**Set Up Environment Variables**
+
+Create a new file named `.env` in the root of your project and add the following content:
+
+```env
+REACT_APP_EMAILJS_USERID=your_emailjs_user_id
+REACT_APP_EMAILJS_TEMPLATEID=your_emailjs_template_id
+REACT_APP_EMAILJS_RECEIVERID=your_emailjs_receiver_id
+```
+
+Replace the placeholder values with your actual EmailJS credentials. You can obtain these credentials by signing up on the [EmailJS website](https://www.emailjs.com/).
+
+**Running the Project**
+
+```bash
+npm run dev
+```
+
+Open [http://localhost:5173](http://localhost:5173) in your browser to view the project.
+
 <h3>I'm planning on adding new features in the future, as well as other changes to improve the portfolio.</h2>
