@@ -108,7 +108,7 @@ const Contact = () => {
                 className="flex-[0.75] bg-black-100 p-8 rounded-2xl"
             >
                 <p className={styles.sectionSubText}>Get in touch</p>
-                <h3 className={styles.sectionHeadText}>Contact.</h3>
+                <h3 className={styles.sectionHeadText}>Contact me.</h3>
 
                 <form ref={formRef} onSubmit={handleSubmit} className="mt-12 flex flex-col gap-8">
                     <label className="flex flex-col">
@@ -118,7 +118,7 @@ const Contact = () => {
                             name="name"
                             value={form.name}
                             onChange={handleChange}
-                            placeholder="What's your awesome name?"
+                            placeholder="Nice to meet you! 🤝"
                             className={`bg-tertiary py-4 px-6 placeholder:text-secondary text-white rounded-lg outline-none border-none font-medium ${
                                 errors.name ? "border-red-500" : ""
                             }`}
@@ -132,7 +132,7 @@ const Contact = () => {
                             name="email"
                             value={form.email}
                             onChange={handleChange}
-                            placeholder="What's your email address?"
+                            placeholder="Won't spam you! 🙌"
                             className={`bg-tertiary py-4 px-6 placeholder:text-secondary text-white rounded-lg outline-none border-none font-medium ${
                                 errors.email ? "border-red-500" : ""
                             }`}
