@@ -4,7 +4,7 @@ import { OrbitControls, Preload, useGLTF } from "@react-three/drei";
 
 import CanvasLoader from "../Loader";
 
-const Computers = ({ isMobile }) => {
+const Computers = ({ isMobile, yValue }) => {
     const computer = useGLTF("./desktop_pc/scene.glb");
 
     return (
@@ -22,7 +22,7 @@ const Computers = ({ isMobile }) => {
             <primitive
                 object={computer.scene}
                 scale={isMobile ? 0.33 : 0.7} // BEGIN: Adjust scale for small screens
-                position={isMobile ? [0, -3, -0.7] : [0, -3.25, -1.5]}
+                position={isMobile ? [0, yValue, -0.7] : [0, -3.25, -1.5]}
                 rotation={[-0.01, -0.2, -0.1]}
             />
         </mesh>
@@ -31,6 +31,7 @@ const Computers = ({ isMobile }) => {
 
 const ComputersCanvas = () => {
     const [isMobile, setIsMobile] = useState(false);
+    const [yValue, setYValue] = useState(0);
 
     useEffect(() => {
         // Add a listener for changes to the screen size
@@ -43,6 +44,9 @@ const ComputersCanvas = () => {
         const handleMediaQueryChange = (event) => {
             setIsMobile(event.matches);
         };
+
+        // Change proportionally the yValue from -3 to -2.5 depending on the screen height
+        setYValue(window.innerHeight < 700 ? (window.innerHeight < 600 ? -3.5 : -3) : -2.5);
 
         // Add the callback function as a listener for changes to the media query
         mediaQuery.addEventListener("change", handleMediaQueryChange);
@@ -63,7 +67,7 @@ const ComputersCanvas = () => {
         >
             <Suspense fallback={<CanvasLoader isMobile={isMobile} />}>
                 <OrbitControls enableZoom={false} maxPolarAngle={Math.PI / 2} minPolarAngle={Math.PI / 2} />
-                <Computers isMobile={isMobile} />
+                <Computers isMobile={isMobile} yValue={yValue} />
             </Suspense>
 
             <Preload all />
