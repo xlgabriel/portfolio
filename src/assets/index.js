@@ -30,11 +30,11 @@ import unity from "./tech/unity.png";
 import vuforia from "./tech/vuforia.png";
 import vagrant from "./tech/vagrant.png";
 import githubblack from "./tech/githubblack.png";
-import linkto from "./linkto.png";
 
 import boga from "./boga.webp";
 import projects_videface from "./projects_videface.webp";
 import rentacar4less from "./rentacar4less.webp";
+import me from "./me.webp";
 
 export {
     logo,
@@ -71,5 +71,5 @@ export {
     boga,
     projects_videface,
     rentacar4less,
-    linkto,
+    me,
 };
