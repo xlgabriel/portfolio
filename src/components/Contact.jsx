@@ -25,7 +25,7 @@ const Contact = () => {
 
     const emailContact = ReactDOMServer.renderToString(<ContactEmailTemplate message={form.message} />);
     const emailConfig = {
-        subject: `Thank you for contacting me, ${form.name.split(" ")[0]} 🚀`,
+        subject: `Thank You for Contacting me, ${form.name.split(" ")[0]} 🚀`,
         from: "Gabriel Jeannot",
         receiverEmail1: "gabriel.jeannot.personal@gmail.com",
     };
@@ -71,7 +71,7 @@ const Contact = () => {
             htmlContactTemplate: emailContact,
         };
 
-        fetch("https://videfacecarinspection-jhyi.onrender.com/send-contact-email", {
+        fetch("https://videface-carinspection-backend-gy5kmoo55q-vp.a.run.app/send-contact-email", {
             method: "POST",
             headers: {
                 "Content-Type": "application/json",
