@@ -1,4 +1,4 @@
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { HashRouter, Routes, Route } from "react-router-dom";
 
 import { About, Contact, Experience, Feedbacks, Hero, Navbar, Tech, Works, StarsCanvas, LinkTree } from "./components";
 
@@ -53,9 +53,9 @@ const AppContent = () => {
 
 const App = () => {
     return (
-        <BrowserRouter basename="/portfolio">
+        <HashRouter basename="/portfolio">
             <AppContent />
-        </BrowserRouter>
+        </HashRouter>
     );
 };
 
