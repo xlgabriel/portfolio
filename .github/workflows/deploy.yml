@@ -32,7 +32,7 @@ jobs:
                   name: production-files
                   path: ./dist
 
-    deploy:
+    deploy-main:
         name: Deploy Portfolio
         needs: build
         runs-on: ubuntu-latest
@@ -53,6 +53,7 @@ jobs:
               with:
                   github_token: ${{ secrets.GITHUB_TOKEN }}
                   publish_dir: ./dist
+                  destination_dir: portfolio
 
     deploy-linktree:
         name: Deploy LinkTree
