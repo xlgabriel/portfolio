@@ -35,6 +35,10 @@ import boga from "./boga.webp";
 import projects_videface from "./projects_videface.webp";
 import rentacar4less from "./rentacar4less.webp";
 import me from "./me.webp";
+import phone from "./phone.svg";
+import email from "./email.svg";
+import youtube from "./youtube.svg";
+import instagram from "./instagram.svg";
 
 export {
     logo,
@@ -72,4 +76,8 @@ export {
     projects_videface,
     rentacar4less,
     me,
+    phone,
+    email,
+    youtube,
+    instagram,
 };

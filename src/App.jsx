@@ -27,7 +27,7 @@ const AppContent = () => {
                     element={
                         <>
                             <div className="bg-hero-pattern bg-cover bg-no-repeat bg-center">
-                                <Navbar />
+                                <Navbar usedOnLinkTree={false} />
                                 <Hero />
                             </div>
                             <MainContent />
@@ -37,9 +37,13 @@ const AppContent = () => {
                 <Route
                     path="/links"
                     element={
-                        <div className="bg-hero-pattern bg-cover bg-no-repeat bg-center min-h-screen">
-                            <LinkTree />
-                        </div>
+                        <>
+                            <div className="bg-hero-pattern bg-cover bg-no-repeat bg-center min-h-screen">
+                                <Navbar usedOnLinkTree={true} />
+                                <LinkTree />
+                            </div>
+                            <Contact />
+                        </>
                     }
                 />
             </Routes>

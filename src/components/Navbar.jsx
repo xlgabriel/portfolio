@@ -2,13 +2,14 @@ import React, { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
 
 import { styles } from "../styles";
-import { navLinks } from "../constants";
+import { navLinks, linkTreeNavLinks } from "../constants";
 import { logo, menu, close } from "../assets";
 
-const Navbar = () => {
+const Navbar = ({ usedOnLinkTree }) => {
     const [active, setActive] = useState("");
     const [toggle, setToggle] = useState(false);
     const [scrolled, setScrolled] = useState(false);
+    const navLinksToUse = usedOnLinkTree ? linkTreeNavLinks : navLinks;
 
     useEffect(() => {
         const handleScroll = () => {
@@ -45,7 +46,7 @@ const Navbar = () => {
                 </Link>
 
                 <ul className="list-none hidden sm:flex flex-row gap-10">
-                    {navLinks.map((nav) => (
+                    {navLinksToUse.map((nav) => (
                         <li
                             key={nav.id}
                             className={`${
@@ -53,7 +54,7 @@ const Navbar = () => {
                             } hover:text-white text-[18px] font-medium cursor-pointer`}
                             onClick={() => setActive(nav.title)}
                         >
-                            <a href={`#${nav.id}`}>{nav.title}</a>
+                            <a href={`${nav.id}`}>{nav.title}</a>
                         </li>
                     ))}
                 </ul>
@@ -72,7 +73,7 @@ const Navbar = () => {
                         } p-6 black-gradient absolute top-20 right-0 mx-4 my-2 min-w-[140px] z-10 rounded-xl`}
                     >
                         <ul className="list-none flex justify-end items-start flex-1 flex-col gap-4">
-                            {navLinks.map((nav) => (
+                            {navLinksToUse.map((nav) => (
                                 <li
                                     key={nav.id}
                                     className={`font-poppins font-medium cursor-pointer text-[16px] ${
@@ -83,7 +84,7 @@ const Navbar = () => {
                                         setActive(nav.title);
                                     }}
                                 >
-                                    <a href={`#${nav.id}`}>{nav.title}</a>
+                                    <a href={`${nav.id}`}>{nav.title}</a>
                                 </li>
                             ))}
                         </ul>
