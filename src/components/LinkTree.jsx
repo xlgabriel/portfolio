@@ -4,7 +4,7 @@ import { motion } from "framer-motion";
 
 const LinkTree = () => {
     return (
-        <div id="linktree" className="relative z-0 min-h-screen flex flex-col items-center">
+        <div className="relative z-0 min-h-screen flex flex-col items-center">
             <div className="flex flex-col items-center mt-32">
                 <div className="w-32 h-32 rounded-full overflow-hidden mb-8 avatar-violet-gradient">
                     <img src={me} alt="avatar" className="w-full h-full object-cover p-1 rounded-full" />
