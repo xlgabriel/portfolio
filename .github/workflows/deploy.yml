@@ -39,6 +39,9 @@ jobs:
         if: github.ref == 'refs/heads/main'
 
         steps:
+            - name: Print ref
+              run: echo ${{ github.ref }}
+
             - name: Checkout repo
               uses: actions/checkout@v2
 
@@ -62,6 +65,9 @@ jobs:
         if: github.ref == 'refs/heads/linktree'
 
         steps:
+            - name: Print ref
+              run: echo ${{ github.ref }}
+
             - name: Checkout repo
               uses: actions/checkout@v2
 
