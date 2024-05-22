@@ -28,38 +28,6 @@ const Hero = () => {
                     <p className={`${styles.heroSubText} mt-2 text-white-100`}>
                         Multimedia Engineer | A.I. Specialist | Front-end Developer
                     </p>
-                    <div className="flex sm:flex-row mt-7">
-                        <a
-                            href="https://github.com/xlgabriel"
-                            target="_blank"
-                            rel="noopener noreferrer"
-                            className="mb-4 sm:mb-0 sm:mr-4 green-pink-gradient p-[2px] rounded-[10px] shadow-card"
-                        >
-                            <button className="bg-[#151131] text-white px-4 py-2 rounded-lg transition duration-300 ease-in-out transform hover:scale-95">
-                                GitHub
-                            </button>
-                        </a>
-                        <a
-                            href="https://www.linkedin.com/in/xlgabriel"
-                            target="_blank"
-                            rel="noopener noreferrer"
-                            className="mb-4 sm:mb-0 sm:mr-4 green-pink-gradient p-[2px] rounded-[10px] shadow-card"
-                        >
-                            <button className="bg-[#151131] text-white px-4 py-2 rounded-lg transition duration-300 ease-in-out transform hover:scale-95">
-                                LinkedIn
-                            </button>
-                        </a>
-                        <a
-                            href="https://drive.google.com/file/d/1qP4Mnce30lQxUlB8L2eBomzXtFEedgky/view?usp=sharing"
-                            target="_blank"
-                            rel="noopener noreferrer"
-                            className="mb-4 sm:mb-0 sm:mr-4 green-pink-gradient p-[2px] rounded-[10px] shadow-card"
-                        >
-                            <button className="bg-[#151131] text-white px-4 py-2 rounded-lg transition duration-300 ease-in-out transform hover:scale-95">
-                                <strong>CV</strong>
-                            </button>
-                        </a>
-                    </div>
                 </div>
             </div>
             <ComputersCanvas />
