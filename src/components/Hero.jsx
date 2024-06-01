@@ -26,7 +26,7 @@ const Hero = () => {
                         </motion.span>
                     </h1>
                     <p className={`${styles.heroSubText} mt-2 text-white-100`}>
-                        Multimedia Engineer | A.I. Specialist | Front-end Developer
+                        Multimedia Engineer | A.I. Specialist | Full Stack Developer
                     </p>
                     <div className="flex sm:flex-row mt-7">
                         <a
@@ -50,7 +50,7 @@ const Hero = () => {
                             </button>
                         </a>
                         <a
-                            href="https://drive.google.com/file/d/1qP4Mnce30lQxUlB8L2eBomzXtFEedgky/view?usp=sharing"
+                            href="https://drive.google.com/file/d/1ML6mc3wZk7g8pk1J0QEv_uBW3qW0bicc/view?usp=sharing"
                             target="_blank"
                             rel="noopener noreferrer"
                             className="mb-4 sm:mb-0 sm:mr-4 green-pink-gradient p-[2px] rounded-[10px] shadow-card"
