@@ -61,6 +61,9 @@ npm install
 
 **Set Up Environment Variables**
 
+> [!IMPORTANT]  
+> I've made some modifications to fetch a Nodemailer server with CORS implemented. Be aware of this, but you can still implement EmailJS using the original tutorial.
+
 Create a new file named `.env` in the root of your project and add the following content:
 
 ```env
