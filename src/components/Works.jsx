@@ -125,7 +125,7 @@ const Works = () => {
     return (
         <>
             <motion.div variants={textVariant()}>
-                <p className={`${styles.sectionSubText} `}>My impact as an engineer</p>
+                <p className={`${styles.sectionSubText} `}>+4 years as an engineer</p>
                 <h2 className={`${styles.sectionHeadText}`}>Professional experience.</h2>
             </motion.div>
 
@@ -134,9 +134,9 @@ const Works = () => {
                     variants={fadeIn("", "", 0.1, 1)}
                     className="mt-3 text-secondary text-[17px] max-w-3xl leading-[30px]"
                 >
-                    Let's talk about my professional experience. I've worked as a front-end developer, some backend,
-                    infrastructure, DevOps, Scrum Master, Cloud Engineer, Game Developer and more. What will be the next
-                    challenge?
+                    I've worked as a Full-Stack Engineer, in charge of a team in my own company (VideFace). I've also
+                    worked on infrastructure, DevOps, Scrum Master, Cloud Engineering, Game Development and more. What
+                    will be the next challenge?
                 </motion.p>
             </div>
 

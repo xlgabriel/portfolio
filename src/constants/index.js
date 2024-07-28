@@ -23,8 +23,9 @@ import {
     rentacar4less,
 } from "../assets";
 
-import cristianAvalo from "../assets/cristianavalo.jpg";
-import carlosOsorio from "../assets/carlososorio.jpg";
+import cristianAvalo from "../assets/cristianavalo.webp";
+import carlosOsorio from "../assets/carlososorio.webp";
+import valentinaLoaiza from "../assets/valentinaloaiza.webp";
 
 export const navLinks = [
     {
@@ -201,7 +202,7 @@ const testimonials = [
             "A man with many ideas and the ability to carry them out. We are happy with the software he developed for us. He's always proposing new ways of doing things under his experience and abilities. I definitely recommend him as a person and engineer.",
         name: "Cristian Ávalo",
         designation: "General director",
-        company: "Rent a car 4 less, located in Miami, Orlando, Fortlauderdale and Houston.",
+        company: "Rent a car 4 less, located in Miami, Orlando, Fort Lauderdale and Houston.",
         image: cristianAvalo,
         linkedin: "https://www.linkedin.com/in/cristian-avalo-4less",
     },
@@ -213,6 +214,15 @@ const testimonials = [
         company: "Universidad Autónoma de Occidente",
         image: "https://www.uao.edu.co/wp-content/uploads/2020/04/Andrés-Gallego-Small.jpg",
         linkedin: "https://www.linkedin.com/in/andresfox",
+    },
+    {
+        testimonial:
+            "It's a pleasure to recommend Gabriel due to his exceptional commitment and dedication. His extensive knowledge in software development and artificial intelligence combines to produce impressive projects.",
+        name: "Valentina Loaiza",
+        designation: "Front-end Developer, Multimedia Engineer, UX/UI Dev",
+        company: "VideFace App",
+        image: valentinaLoaiza,
+        linkedin: "https://www.linkedin.com/in/valentina-loaiza-mejia-4587ba261/",
     },
     {
         testimonial:
@@ -271,7 +281,7 @@ const projects = [
     },
     {
         upper_title: "Giving real value to the company",
-        date: "March 2023 - Present",
+        date: "March 2023 - May 2024",
         name: "Rent a car 4 less",
         description:
             "Development of web-based software to automatize car rental process in the offices. Automate internal processes related to the management of sensitive information. Development of new features on the WordPress page. In charge of social networks management, content creation, user experience and more.",
@@ -302,7 +312,7 @@ const projects = [
             },
         ],
         image: rentacar4less,
-        source_code_link: "https://videface.app/",
+        source_code_link: "https://www.rac4less.com/",
     },
     {
         upper_title: "Getting to know the professional world",

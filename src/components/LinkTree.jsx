@@ -12,7 +12,7 @@ const LinkTree = () => {
                 <h1 className="text-white text-4xl font-bold mb-6">Let's connect</h1>
                 <div className="flex flex-col items-center">
                     <a
-                        href="https://drive.google.com/file/d/1qP4Mnce30lQxUlB8L2eBomzXtFEedgky/view?usp=sharing"
+                        href="https://drive.google.com/file/d/1wNSo6dtOsfWeCJu854kqBztZDKI_ZjBZ/view?usp=sharing"
                         target="_blank"
                         rel="noopener noreferrer"
                         className="mb-4 w-64 text-center green-pink-gradient p-[2px] rounded-[10px] shadow-card"
