@@ -71,7 +71,7 @@ const Contact = () => {
             htmlContactTemplate: emailContact,
         };
 
-        fetch("https://videface-server-cars-mqx4ohbz2q-ue.a.run.app/send-contact-email", {
+        fetch("https://videface-backend-166917106706.us-east1.run.app/api/v1/cars/inspections/emails/contact", {
             method: "POST",
             headers: {
                 "Content-Type": "application/json",
