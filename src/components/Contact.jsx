@@ -26,8 +26,8 @@ const Contact = () => {
     const emailContact = ReactDOMServer.renderToString(<ContactEmailTemplate message={form.message} />);
     const emailConfig = {
         subject: `Thank You for Contacting me, ${form.name.split(" ")[0]} 🚀`,
-        from: "Gabriel Jeannot",
-        receiverEmail1: "gabriel.jeannot.personal@gmail.com",
+        from: "Gabriel Jeannot <gabriel.jeannot.personal@gmail.com>",
+        receiverEmails: ["gabriel.jeannot.personal@gmail.com", form.email],
     };
 
     const handleChange = (e) => {
@@ -63,8 +63,8 @@ const Contact = () => {
         setLoading(true);
 
         const data = {
-            name: form.name,
-            email: form.email,
+            clientName: form.name,
+            clientEmail: form.email,
             companyId: "Gabriel",
             office: "Portfolio",
             emailConfig: emailConfig,
@@ -78,27 +78,31 @@ const Contact = () => {
             },
             body: JSON.stringify(data),
         })
-            .then((response) => response.json())
-            .then(
-                () => {
-                    setLoading(false);
-                    setEmailSent(true);
-
-                    setForm({
-                        name: "",
-                        email: "",
-                        message: "",
-                    });
-                },
-                (error) => {
-                    setLoading(false);
-                    console.error(error);
-
-                    alert(
-                        "Ahh, something went wrong. Kindly notify me that the email service is not working so I can fix it ASAP!"
-                    );
+            .then(async (response) => {
+                const result = await response.json().catch(() => ({}));
+                if (!response.ok) {
+                    throw new Error(result.msg || result.message || "Failed to send email");
                 }
-            );
+                return result;
+            })
+            .then(() => {
+                setLoading(false);
+                setEmailSent(true);
+
+                setForm({
+                    name: "",
+                    email: "",
+                    message: "",
+                });
+            })
+            .catch((error) => {
+                setLoading(false);
+                console.error(error);
+
+                alert(
+                    "Ahh, something went wrong. Kindly notify me that the email service is not working so I can fix it ASAP!",
+                );
+            });
     };
 
     return (
