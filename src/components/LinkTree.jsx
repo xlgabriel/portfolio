@@ -70,6 +70,8 @@ const LinkTree = () => {
                         </a>
                         <a
                             href="https://youtube.com/@xlgabriel"
+                            target="_blank"
+                            rel="noopener noreferrer"
                             className="mb-4 text-center violet-gradient rounded-full shadow-card hover:scale-110 transition duration-300 ease-in-out transform"
                         >
                             <img src={youtube} alt="email" className="w-9 h-9 inline-block" />
